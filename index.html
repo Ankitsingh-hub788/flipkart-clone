@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flipkart Clone</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">Flipkart Clone</div>
+
+    <input type="text" placeholder="Search for Products">
+
+    <button class="cart-btn">
+        Cart (<span id="cartCount">0</span>)
+    </button>
+</header>
+
+<section class="banner">
+    <h1>Big Sale Up To 50% Off</h1>
+    <p>Shop Electronics, Fashion & More</p>
+</section>
+
+<section class="products">
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400" alt="Mobile">
+        <h3>Smart Phone</h3>
+        <p>₹15,999</p>
+        <button onclick="addToCart()">Add To Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400" alt="Laptop">
+        <h3>Laptop</h3>
+        <p>₹49,999</p>
+        <button onclick="addToCart()">Add To Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400" alt="Headphones">
+        <h3>Headphones</h3>
+        <p>₹1,999</p>
+        <button onclick="addToCart()">Add To Cart</button>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Flipkart Clone | College Project</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
